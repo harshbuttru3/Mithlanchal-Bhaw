@@ -1,0 +1,42 @@
+.blog-grid {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.blog-grid h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #444;
+  text-align: center;
+}
+
+.vertical-grid-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+   align-items: center;  /* Centers the cards horizontally */
+}
+
+.vertical-blog-card {
+  width: 1800px; /* Set a consistent width for each blog card */
+  background-color: #f9f9f9;
+  /* border: 2px solid rgb(122, 122, 174); */
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures content fits inside the card */
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+
+.blog-title {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+  padding: 0 10px;
+}

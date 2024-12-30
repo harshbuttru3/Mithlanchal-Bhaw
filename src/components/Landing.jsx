@@ -1,4 +1,5 @@
 import React, { Component, createRef } from 'react';
+import { Link } from "react-router-dom";
 import './Landing.css';
 
 class Landing extends Component {
@@ -17,8 +18,8 @@ class Landing extends Component {
     // Titles and images array
     this.items = [
       { title: "Darbhanga Palace", img: 'darbhanga-palace.jpg' },
-      { title: "Shyama Mandir", img: 'pond-temple.jpg' },
-    //   { title: "Ambulance", img: 'ambulance.jpg' },
+      { title: "Shyama Mandir", img: 'pond-temple.PNG' },
+      { title: "Pond", img: 'Darbhanga-ghat.webp' },
     //   { title: "Bed", img: 'bed.png' }
     ];
   }
@@ -84,11 +85,13 @@ class Landing extends Component {
               <div className="item" key={index}>
                 <img src={`/image/${item.img}`} alt={`Slide ${index + 1}`}></img>
                 <div className="content">
-                  <div className="author">MEDIKIT</div>
+                  {/* <div className="author">Mithla Bhaw</div> */}
                   <div className="title">{item.title}</div>
-                  <div className="topic">SERVICES</div>
+                  <div className="topic">Darbhanga</div>
                   <div className="buttons">
-                    <button>EXPLORE</button>
+                    <button>Explore</button>
+                    {/* <Link to="/BlogGrid" className="button-link">Explore</Link> */}
+
                   </div>
                 </div>
               </div>

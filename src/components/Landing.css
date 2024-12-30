@@ -7,11 +7,14 @@ a{
 
 /* carousel */
 .carousel{
-    height: 100vh;
-    margin-top: -50px;
-    width: 100vw;
+    /* margin-top: 5px; */
+    height: 95vh;
+    /* margin-top: -50px; */
+    width: 98vw;
     overflow: hidden;
     position: relative;
+    /* border: 2px solid rgba(170, 170, 198, 0.845); */
+    border-radius: 15px;
 }
 .carousel .list .item{
     width: 100%;

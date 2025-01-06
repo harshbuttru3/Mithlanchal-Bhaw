@@ -3,12 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #3366cc; /* Blue background */
+    background-color: #50101b; /* Blue background */
     padding: 10px 20px;
     margin-top: -10px;
     margin-left: -10px;
     /* border-radius: 15px; */
   }
+  
   
   .menu-icon {
     font-size: 30px;
